@@ -1,0 +1,306 @@
+
+[ng\:cloak], [ng-cloak], .ng-cloak { display: none; }
+
+/* line 1, ../sass/style.sass */
+body {
+  background: white;
+
+  /*font-family: 'SlingLight', Georgia, "Times New Roman", Times, serif; */
+}
+
+#body {
+  overflow: hidden;
+}
+
+/* line 5, ../sass/style.sass */
+h1 {
+  margin: 0;
+}
+
+/* line 8, ../sass/style.sass */
+#header > h1 {
+  display: inline-block;
+  font-family: "Raleway", verdana, tahoma, sans-serif;
+  font-weight: 300;
+  margin: 40px 0px 30px 0px;
+}
+
+/* line 14, ../sass/style.sass */
+hr {
+  color: #aaaaaa;
+  background-color: #eeeeee;
+  border: 0 none;
+  height: 2px;
+}
+
+/* line 20, ../sass/style.sass */
+li {
+  list-style: none;
+}
+
+/* line 23, ../sass/style.sass */
+a {
+  color: #333333;
+  font-family: "Raleway", verdana, tahoma, sans-serif;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+/* line 28, ../sass/style.sass */
+a:hover {
+  color: #f87431;
+}
+
+/* line 31, ../sass/style.sass */
+img {
+  margin-top: 0px;
+  position: absolute;
+}
+
+/* line 35, ../sass/style.sass */
+p {
+  font-weight: normal;
+  font-size: 1.2em;
+  letter-spacing: 0.1em;
+}
+
+/* line 40, ../sass/style.sass */
+#score {
+  background: #dddddd;
+  color: #777777;
+  font-size: 0.8em;
+  text-transform: lowercase;
+  padding: 5px 10px 10px 15px;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  border-radius: 0px 0px 0px 10px;
+}
+
+/* line 51, ../sass/style.sass */
+#footer {
+  font-size: 0.5em;
+  position: fixed;
+  bottom: 10px;
+}
+/* line 55, ../sass/style.sass */
+#footer p {
+  letter-spacing: 2px;
+  margin: 0px;
+  width: 100%;
+}
+/* line 59, ../sass/style.sass */
+#footer img {
+  margin: -10px 0px 0px 30px;
+}
+
+/* line 62, ../sass/style.sass */
+.clear {
+  clear: both;
+}
+
+/* line 65, ../sass/style.sass */
+#wrapper {
+  color: #aaaaaa;
+  font-size: 1.5em;
+  margin: 0px auto;
+  width: 80%;
+}
+
+/* line 71, ../sass/style.sass */
+#chooseDifficulty {
+  background: url("img/drawn-arrow-small.png") 0px 15px no-repeat;
+  font-family: "Amatic SC", cursive;
+  font-size: 1.2em;
+  letter-spacing: 1px;
+  overflow: visible;
+  padding-left: 60px;
+  position: absolute;
+  top: 20px;
+  right: 18%;
+  width: 220px;
+}
+
+/* line 83, ../sass/style.sass */
+#difficulty .level-border-true {
+  cursor: pointer;
+  border-bottom: 1px #f87431 solid;
+}
+
+/* line 87, ../sass/style.sass */
+#counter {
+  background: #5cb3ff;
+  color: white;
+  display: inline-block;
+  font-size: 3.5em;
+  padding: 20px 40px;
+  margin-top: 125px;
+  margin-left: 40%;
+  -moz-border-radius: 60px;
+  -webkit-border-radius: 60px;
+  border-radius: 60px;
+  /* future proofing */
+  -khtml-border-radius: 60px;
+  /* for old Konqueror browsers */
+}
+
+/* line 102, ../sass/style.sass */
+#difficulty .level-border-true {
+  transition: border-bottom 0.25s ease;
+}
+/* line 104, ../sass/style.sass */
+#difficulty .level-border-true:hover {
+  border-bottom: 15px #f87431 solid;
+}
+
+/* line 107, ../sass/style.sass */
+.hide {
+  display: none;
+}
+
+/* line 110, ../sass/style.sass */
+#difficulty {
+  display: inline-block;
+  font-family: verdana, tahoma, sans-serif;
+  font-size: 0.7em;
+  margin: 0px 5px 0px 50px;
+}
+
+/* line 117, ../sass/style.sass */
+#currentLevel {
+  border-bottom: 4px #f87431 solid;
+}
+
+/* line 120, ../sass/style.sass */
+#progress {
+  border-right: 3px solid #eeeeee;
+  float: left;
+  width: 15%;
+  /*margin-left: -200px;*/
+}
+/* line 124, ../sass/style.sass */
+#progress li {
+  font-family: "Raleway", verdana, tahoma, sans-serif;
+  font-size: 0.8em;
+  height: 19px;
+  margin: 0px 0px 10px 0px;
+  padding: 3px 0px 8px 10px;
+  width: 20px;
+  -moz-border-radius: 11px;
+  -webkit-border-radius: 11px;
+  border-radius: 11px;
+ 
+}
+/* line 137, ../sass/style.sass */
+#progress ul {
+  float: left;
+  padding-left: 0px;
+  margin: 25px 20px;
+}
+
+/* line 149, ../sass/style.sass */
+#questionSection {
+  float: left;
+  margin: 30px 0px 0px 55px;
+  width: 75%;
+}
+/* line 153, ../sass/style.sass */
+#questionSection h2 {
+  background-color: #5cb3ff;
+  color: white;
+  display: inline-block;
+  float: left;
+  height: 50px;
+  padding: 10px 0px 0px 20px;
+  margin-left: -10px;
+  width: 40px;
+  -moz-border-radius: 29px;
+  -webkit-border-radius: 29px;
+  border-radius: 29px;
+  /* future proofing */
+}
+
+/* line 167, ../sass/style.sass */
+#question {
+  font-size: 0.9em;
+  float: left;
+  margin-left: 40px;
+  width: 660px;
+}
+
+/* line 173, ../sass/style.sass */
+#multiple-choice {
+  margin: 0px 5px 5px 5px;
+  font-size: 0.8em;
+}
+/* line 176, ../sass/style.sass */
+#multiple-choice > div {
+  color: #666666;
+  font-family: "Raleway", verdana, tahoma, sans-serif;
+  float: left;
+  margin: 10px 0px 0px 0px;
+  width: 50%;
+}
+
+/* line 183, ../sass/style.sass */
+#next {
+  border: 2px #eeeeee solid;
+  color: #aaaaaa;
+  display: inline-block;
+  float: right;
+  font-family: "Raleway", verdana, tahoma, sans-serif;
+  height: 40px;
+  margin: 40px 100px 0px 0px;
+  padding: 10px 15px 0px 20px;
+  width: 80px;
+}
+/* line 193, ../sass/style.sass */
+#next:hover {
+  border: 2px #f87431 solid;
+  color: #f87431;
+}
+
+/* line 197, ../sass/style.sass */
+#selected a {
+  color: #f87431;
+}
+
+/* line 200, ../sass/style.sass */
+#nav {
+  float: right;
+}
+
+/* line 203, ../sass/style.sass */
+#start {
+  background: url(img/start.png) 10px 22px no-repeat;
+  color: white;
+  display: inline-block;
+  font-size: 2em;
+  height: 60px;
+  margin-top: 110px;
+  margin-left: 40%;
+  padding: 25px 0px 0px 45px;
+  width: 180px;
+  /* -moz-border-radius: 60px;
+   * -webkit-border-radius: 60px;
+   * border-radius: 60px; /* future proofing */
+}
+
+/* line 219, ../sass/style.sass */
+.choice {
+  display: block;
+}
+/* line 221, ../sass/style.sass */
+.choice span {
+  background-color: #5cb3ff;
+  color: white;
+  display: inline-block;
+  margin: 5px 0;
+  padding: 2px 0px 2px 15px;
+  width: 30px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  /* future proofing */
+}
+
+
